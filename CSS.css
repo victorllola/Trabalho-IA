@@ -1,0 +1,72 @@
+/*estilo do body*/
+body {
+    background-color: #f5f8fa;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #14171a;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1da1f2;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.navbar-brand, .navbar-text {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 25px;
+    border: 1px solid #ccd6dd;
+    padding: 10px 15px;
+}
+
+.btn-primary {
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0d95e8;
+}
+
+/*pstagens*/
+.post {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/*texto das postagens */
+.post p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+
+.btn-success, .btn-danger {
+    border-radius: 25px;
+}
+
+.btn-secondary {
+    background-color: #657786;
+    border: none;
+}
